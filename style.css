@@ -1,0 +1,91 @@
+
+
+.d-flex input {
+    margin: .9em 0em;
+}
+
+.d-flex button {
+    margin: 1.5em .6em;
+    padding: .3em 2.4em;
+}
+
+.d-flex table {
+    margin: 1em 10em;
+}
+
+table .btnedit {
+    color: lightgreen;
+    cursor: pointer;
+}
+
+table .btndelete {
+    color: tomato;
+    cursor: pointer;
+}
+
+/* messages */
+.updatemsg,
+.deletemsg,
+.insertmsg {
+    position: absolute;
+    top: -40px;
+}
+
+.movedown {
+    animation: slideup 3.4s ease;
+}
+
+@keyframes slideup {
+    50% {
+        top: 0
+    }
+
+    100% {
+        top: -40px;
+    }
+}
+.iz{
+    position: relative;
+    float: right ;
+    margin-top: -250px;
+
+}
+.toggle samp{
+    margin-top: 9PX; 
+    text-decoration: none;
+    color: #fff;
+    text-decoration-color: aqua;
+}
+.user-image{
+width: 50PX;
+border-radius: 50%;
+border: 2px;
+
+
+}
+.profile .toggle {
+    margin-top: 9PX; 
+    text-decoration: none;
+    color: #ffffff;
+    text-decoration-color: aqua;
+    text-overflow: ellipsis;
+}
+.profile a {
+    margin-top: 9PX; 
+    text-decoration: none;
+    color: #868686;
+    text-decoration-color: aqua;
+    text-overflow: ellipsis;
+}
+.dropdown-menu {
+position: relative;
+    background: red;
+   
+   
+}
+.ocultar{
+    width: 0px;
+    height: 0px;
+margin-left: -122px;
+    position: absolute;
+}
